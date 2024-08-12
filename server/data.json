@@ -1,0 +1,62 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "CSPM Executive Dashboard",
+      "widgets": [
+        {
+          "id": "4b26ec93-07fa-4175-ba42-9af312062362",
+          "name": "Test ",
+          "text": "Testing purpose",
+          "image": "https://picsum.photos/200/300"
+        },
+        {
+          "id": "dc105163-34f0-4227-a2e6-860ab1381528",
+          "name": "Hello again",
+          "text": "Testing agin",
+          "image": "https://picsum.photos/200/300"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "CSPM Community Dashboard",
+      "widgets": [
+        {
+          "id": "1",
+          "name": "Widget 1",
+          "text": "Random text for Widget 1",
+          "image": "https://picsum.photos/200"
+        },
+        {
+          "id": "2",
+          "name": "Widget 2",
+          "text": "Random text for Widget 2",
+          "image": "https://picsum.photos/200"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "CSPM Business Dashboard",
+      "widgets": [
+        {
+          "id": "33c425a2-952c-4789-965e-9e114dc98703",
+          "name": "Hello",
+          "text": "Hello again",
+          "image": "https://picsum.photos/200/300"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Work",
+      "widgets": []
+    },
+    {
+      "id": "5",
+      "name": "good",
+      "widgets": []
+    }
+  ]
+}

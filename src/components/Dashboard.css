@@ -1,0 +1,240 @@
+.page-container {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header-container h1 {
+    margin-right: 20px;
+  }
+  
+  .search-input-container {
+    display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+
+  }
+  
+  .search-input {
+    width: 250px;
+    padding: 10px 40px 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    outline: none;
+  }
+  
+  .search-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+  }
+  
+  .search-input-icon {
+    position: relative;
+    right: 30px;
+    transform: translateY(-10%);
+    color: #aaa;
+    font-size: 18px;
+  }
+  
+  .add-widget-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+  .add-widget-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px; 
+    cursor: pointer;
+  }
+  
+  .add-widget-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .widget-form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .widget-form input,
+  .widget-form select {
+    margin-right: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .widget-form button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .widget-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .category-section {
+    margin-bottom: 30px;
+  }
+  
+  .category-heading {
+    margin: 0 0 20px 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .widget-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .widget-card {
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative; /* Ensure positioning context for the button */
+  }
+  
+  .widget-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .widget-heading {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .remove-widget-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #ff4d4d;
+    font-size: 20px;
+  }
+  
+  .remove-widget-button:hover {
+    color: #cc0000;
+  }
+  
+  .widget-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .widget-image {
+    margin-right: 15px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .widget-text {
+    flex: 1;
+  }
+  .widget-card.add-widget-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #f1f1f1;
+    color: #007bff;
+    border: 2px dashed #007bff;
+    font-size: 20px;
+  }
+  
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 100%;
+    background-color: #fff;
+    border-left: 2px solid #ddd;
+    box-shadow: -4px 0 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    padding: 20px;
+  }
+  
+  .sidebar-content {
+    width: 100%;
+    max-width: 350px;
+  }
+  
+  .sidebar-content h2 {
+    margin-bottom: 15px;
+  }
+  
+  .sidebar-content input,
+  .sidebar-content select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .sidebar-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .sidebar-content button {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .sidebar-content button:hover {
+    background-color: #0056b3;
+  }
+  
+  .sidebar-content button.cancel {
+    background-color: #ccc;
+  }
+  
+  .sidebar-content button.cancel:hover {
+    background-color: #aaa;
+  }
